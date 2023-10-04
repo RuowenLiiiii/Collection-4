@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 20px;
+}
+
+.image {
+    max-width: calc(33% - 10px);
+    height: auto;
+    margin: 0 5px; 
+}
+
+.my-link {
+    cursor: 🎆, pointer;
+}
